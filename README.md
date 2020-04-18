@@ -16,6 +16,18 @@ A sudoku solver that can solve sudoku from an image built on python using OpenCV
 * [Keras](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjipOP4o_LoAhW_wzgGHQjFBW8QFjAAegQIARAB&url=http%3A%2F%2Fkeras.io%2F&usg=AOvVaw330NFtOAF1xcgasnbQvfe5)
 * [Tensorflow=1.5](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwi_ncmIpPLoAhW8zzgGHTlsB5oQFjAAegQIIRAC&url=https%3A%2F%2Fwww.tensorflow.org%2F&usg=AOvVaw0TGZBeXHx2CVPI2FiDZclR)
 
+**Flow**
+* Provide path to the sudoku image<br/>
+![Fig A.1.1.Original Image](https://github.com/aaron-george/AI_Sudoku_Solver/blob/master/Screenshots/Screenshot%20from%202020-04-18%2019-35-04.png  )
+
+* Click on Add recognised numbers<br/>
+![Fig A.1.1.Original Image](https://github.com/aaron-george/AI_Sudoku_Solver/blob/master/Screenshots/Screenshot%20from%202020-04-18%2019-36-51.png)
+
+* Manually make changes to missing/wrong numbers<br/>
+![Fig A.1.1.Original Image](https://github.com/aaron-george/AI_Sudoku_Solver/blob/master/Screenshots/Screenshot%20from%202020-04-18%2019-37-03.png)
+
+* Click on Solve to see the magic<br/>
+![Fig A.1.1.Original Image](https://github.com/aaron-george/AI_Sudoku_Solver/blob/master/Screenshots/Screenshot%20from%202020-04-18%2019-37-14.png)
 
 
 **Steps Involved**
@@ -69,6 +81,28 @@ Fig 1.3.1 Cropped Image
 
 
 Fig 1.5.1 Extracted Sudoku Image
+
+**B.Extracting numbers from the squares**
+
+B.1 Splitting the image into 81 squares
+
+B.2 Creating the CNN model using MNIST Database
+
+B.3 Storing the model as .json file
+
+B.4 Running each of the squares to detect the number
+
+B.5 Parse it into a numpy array
+
+
+**C. Completing the sudoku using BackTracking Algorithm**
+
+The simple backtracking algorithm is used to solve sudoku:
+
+Read more at: https://www.geeksforgeeks.org/sudoku-backtracking-7/
+
+The GUI interface is made using Tkinter library
+
 
 
 
