@@ -3,6 +3,11 @@
 
 A sudoku solver that can solve sudoku from an image built on python using OpenCV, Tensorflow and Tkinter
 
+Contributors:
+* [Nikhil Prbhakar](https://github.com/Nikhil-Prabhakar2806)
+* [Ashish Bhatia]( https://github.com/AshishB29)
+
+
 **To run the program**
 * Install [Python3](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjt4aDrl_LoAhX5yDgGHRcuBKMQFjAAegQIChAC&url=https%3A%2F%2Fwww.python.org%2Fdownloads%2F&usg=AOvVaw3VuYRIaaa-SL5nRa6pfny0)
 
