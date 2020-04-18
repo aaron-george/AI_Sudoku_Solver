@@ -46,7 +46,7 @@ Contributors:
 **1.1.Preprocessing of the image**
 
 Gaussian blur is done to remove the noise in the image. Kernel size of (9,9).
-![Fig A.1.1.Original Image](https://github.com/aaron-george/quarantine-project/blob/master/Capturing-Image/sudoku.jpeg   )               
+![Fig A.1.1.Original Image](https://github.com/aaron-george/AI_Sudoku_Solver/blob/master/Capturing-Image/Screenshot%20from%202020-04-14%2023-44-52.png   )               
 Fig 1.1.1.Original Image                               
          
 
@@ -56,9 +56,9 @@ Adaptive Thresholding is done so that the algorithm decides a threshold based on
 [Read more](https://docs.opencv.org/master/d7/d4d/tutorial_py_thresholding.html)
 
 
-![Fig A.1.1.Original Image](https://github.com/aaron-george/quarantine-project/blob/master/Capturing-Image/Screenshot%20from%202020-04-14%2023-45-02.png  )
+![Fig A.1.1.Original Image](https://github.com/aaron-george/AI_Sudoku_Solver/blob/master/Capturing-Image/Screenshot%20from%202020-04-14%2023-45-02.png )
                                            <br />  Figure 1.1.3. Adaptive Thresholding<br /> <br /> 
-![Fig A.1.1.Original Image](https://github.com/aaron-george/quarantine-project/blob/master/Capturing-Image/Screenshot%20from%202020-04-14%2023-45-10.png)
+![Fig A.1.1.Original Image](https://github.com/aaron-george/AI_Sudoku_Solver/blob/master/Capturing-Image/Screenshot%20from%202020-04-14%2023-45-10.png)
 <br /> Figure 1.1.4. Inversion and Dilation
               
 Inversion of colours is performed using Bitwise NOT operation. Dilation of lines is done to increase the thickness of the lines. This concludes the pre-processing of the image.
@@ -75,14 +75,14 @@ Bottom-right point has the largest (x + y) value. Top-left has the smallest (x +
 
 Crop the image to the square having the sudoku. We describe the square with the distance calculated from the corner points. Then warp the image to that distance after comparing values. Finally, crop the image using transformation.
 
-![Fig A.1.1.Original Image](https://github.com/aaron-george/quarantine-project/blob/master/Capturing-Image/Screenshot%20from%202020-04-14%2023-45-20.png)
+![Fig A.1.1.Original Image](https://github.com/aaron-george/AI_Sudoku_Solver/blob/master/Capturing-Image/Screenshot%20from%202020-04-14%2023-45-20.png)
 
 Fig 1.3.1 Cropped Image
 
 
 **1.4. Split the image into 81 cells and infer it** <br /><br /><br />
 **1.5. Extract digits from the squares.**<br />
-![Fig A.1.1.Original Image](https://github.com/aaron-george/quarantine-project/blob/master/Capturing-Image/gau_sudoku3.jpg)
+![Fig A.1.1.Original Image](https://github.com/aaron-george/AI_Sudoku_Solver/blob/master/Capturing-Image/gau_sudoku3.jpg)
 
 
 Fig 1.5.1 Extracted Sudoku Image
